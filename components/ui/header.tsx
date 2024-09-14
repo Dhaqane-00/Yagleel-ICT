@@ -11,6 +11,28 @@ export default function Header() {
             <Logo />
           </div>
 
+          {/* Navigation links */}
+          <nav className="hidden gap-6 md:flex">
+            <Link
+              href="/features"
+              className="text-sm font-medium text-gray-800 transition hover:text-gray-900"
+            >
+              Features
+            </Link>
+            <Link
+              href="/pricing"
+              className="text-sm font-medium text-gray-800 transition hover:text-gray-900"
+            >
+              Pricing
+            </Link>
+            <Link
+              href="/blog"
+              className="text-sm font-medium text-gray-800 transition hover:text-gray-900"
+            >
+              Blog
+            </Link>
+          </nav>
+
           {/* Desktop sign in links */}
           <ul className="flex flex-1 items-center justify-end gap-3">
             <li>

@@ -12,6 +12,7 @@ export default function Logo() {
         height="32"
         alt="Cruip"
       />
+      <h1 className="ml-3 text-xl font-bold font-noto">YAGLEEL</h1>
     </Link>
   );
 }

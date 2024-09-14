@@ -10,6 +10,9 @@ module.exports = {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         mono: ["Roboto Mono", "monospace"],
+        roboto: ["Roboto", "sans-serif"],
+        rubik: ["Rubik", "sans-serif"],
+        noto: ["Noto Sans", "sans-serif"],
       },
       fontSize: {
         xs: ["0.75rem", { lineHeight: "1.5" }],

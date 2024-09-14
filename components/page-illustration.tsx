@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import Stripes from "@/public/images/stripes.svg";
+import Hero from "@/public/images/Hero2.svg"
 
 export default function PageIllustration() {
   return (
@@ -12,7 +13,7 @@ export default function PageIllustration() {
       >
         <Image
           className="max-w-none"
-          src={Stripes}
+          src={Hero}
           width={768}
           alt="Stripes"
           priority
