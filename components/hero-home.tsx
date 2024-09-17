@@ -34,7 +34,7 @@ export default function HeroHome() {
                From sleek websites to powerful mobile apps, we deliver
                 innovative digital experiences tailored to your business needs.
               </p>
-              <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
+              <div className="relative  before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
                 <div
                   className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center"
                   data-aos="zoom-y-out"
@@ -45,7 +45,7 @@ export default function HeroHome() {
                     href="#0"
                   >
                     <span className="relative inline-flex items-center">
-                      Start Free Trial{" "}
+                    Get Started Today{" "}
                       <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
                         -&gt;
                       </span>
@@ -61,7 +61,6 @@ export default function HeroHome() {
               </div>
             </div>
           </div>
-          {/* Hero image */}
         </div>
       </div>
     </section>
